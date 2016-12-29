@@ -1,0 +1,33 @@
+{
+  "name": "law",
+  "version": "1.0.0",
+  "description": "project is for solders lawyer",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegrabber1/LawA.loc.git"
+  },
+  "keywords": [
+    "lawyer",
+    "solders",
+    "Ukraine"
+  ],
+  "author": "codegrabber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codegrabber1/LawA.loc/issues"
+  },
+  "homepage": "https://github.com/codegrabber1/LawA.loc#readme"
+}
