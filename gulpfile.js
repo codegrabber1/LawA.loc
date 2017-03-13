@@ -4,8 +4,8 @@ const gulp  = require('gulp');
 const sass  = require('gulp-sass');
 const pug   = require('gulp-pug');
 const notify    = require('gulp-notify');
-const multipipe = require('multipipe');
 const bs = require('browser-sync').create();
+const autopref  = require('gulp-autoprefixer');
 
 // Static server
 gulp.task('server', function () {
@@ -17,7 +17,11 @@ gulp.task('server', function () {
 
 gulp.task('sass', function () {
   return gulp.src('app/sass/**/*.scss')
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass().on('error', sass.logError)),
+    // .pipe(autopref({
+    //   browsers: ['last 2 versions'],
+    //   cascade: false
+    // })),
     .pipe(gulp.dest('style.css'));
 });
 

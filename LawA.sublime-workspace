@@ -15,7 +15,15 @@
 			"file": "app/layout.pug",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1027,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1101,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,15 +31,15 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 672,
+				"buffer_size": 732,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "gulpfile.js",
+			"file": "app/index.pug",
 			"settings":
 			{
-				"buffer_size": 760,
+				"buffer_size": 44,
 				"line_ending": "Windows"
 			}
 		}
@@ -76,14 +84,22 @@
 	},
 	"expanded_folders":
 	[
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app"
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc"
 	],
 	"file_history":
 	[
+		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/gulpfile.js",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/.gitignore",
+		"/C/Users/codegrabber/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes/header.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/index.html",
+		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/package.json",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/package.json",
+		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/app/layout.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/app/index.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/index.pug",
 		"/D/YandexDisk/YandexDisk/Server/domains/php.loc/text.txt",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/layout.pug",
-		"/C/Users/codegrabber/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/layout.pug"
 	],
 	"find":
 	{
@@ -118,7 +134,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -127,35 +143,37 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1027,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								936,
+								936
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Pug/Syntaxes/PyPug.tmLanguage"
+							"syntax": "Packages/Pug/Syntaxes/PyPug.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 285.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "package.json",
+					"file": "gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 672,
+						"buffer_size": 1101,
 						"regions":
 						{
 						},
@@ -164,6 +182,36 @@
 							[
 								396,
 								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -180,33 +228,32 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "gulpfile.js",
+					"buffer": 3,
+					"file": "app/index.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 760,
+						"buffer_size": 44,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								742,
-								742
+								44,
+								44
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Pug/Syntaxes/PyPug.tmLanguage",
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
