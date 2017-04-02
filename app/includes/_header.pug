@@ -1,0 +1,14 @@
+include _mixins
+header.clearfix
+  .header_main.clearfix
+    .container
+        .row
+            .col-xs-8.col-sm-4.col-md-4
+              h1
+                a(href="./") Anton Krasov
+            .col-xs-4.col-sm-8.col-md-8
+              nav
+                .mobile-mnu.hidden-md.hidden-lg
+                  a(href="#").toggle-mnu.hidden-lg
+                    span
+                +menu(menuItem)

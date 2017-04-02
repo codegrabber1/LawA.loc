@@ -7,13 +7,11 @@ html(lang="en")
   head
     meta(charset="utf-8")
     title LawA
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
-    <!-- endbower -->
-    link(href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed" rel="stylesheet")
-    link(href="styles/font-awesome.min.css" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
     link(rel="stylesheet", media="all", type="text/css", href="style.css")
-
+    <!--[if lt IE 9]>
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" )
+    <![endif]-->
   body
     .wrraper
       include includes/_header
@@ -21,9 +19,5 @@ html(lang="en")
         block content
       include includes/_footer
     <!-- scripts -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <!-- endbower -->
     script(src="js/libs.js")
-    script(src="js/common.js")
-    script(src="js/slider.js")
+    script(src="js/myscripts.js")

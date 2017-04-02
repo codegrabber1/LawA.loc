@@ -1,0 +1,20 @@
+-var menuItem = ["About Me", "Legal help", "Members ATO", "Other Legal help", "Blog", "Products"]
+-var menuSubItem = ["Item1", "Item2", "Item3"]
+-var menuSubItem2 = ["Item1", "Item2", "Item3"]
+mixin menu(items)
+  ul.sf-menu
+    each item in menuItem
+      if item == menuItem[1]
+        li
+          a(href=item+".html") #{item}
+          ul
+            each item in menuSubItem
+              li: a(href="#") #{item}
+      else if item == menuItem[2]
+        li
+          a(href=item+".html") #{item}
+          ul
+            each item in menuSubItem
+              li: a(href="#") #{item}
+      else
+        li: a(href=item+".html") #{item}

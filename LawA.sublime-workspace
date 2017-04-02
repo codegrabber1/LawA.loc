@@ -12,10 +12,42 @@
 	"buffers":
 	[
 		{
-			"file": "app/layout.pug",
+			"file": "app/sass/_settings.sass",
 			"settings":
 			{
-				"buffer_size": 1027,
+				"buffer_size": 300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/includes/_mixins.pug",
+			"settings":
+			{
+				"buffer_size": 640,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/includes/_header.pug",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/sass/includes/_headr.sass",
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/sass/includes/_topmenu.sass",
+			"settings":
+			{
+				"buffer_size": 1064,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,23 +55,23 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 1101,
+				"buffer_size": 1624,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "app/sass/_media.sass",
 			"settings":
 			{
-				"buffer_size": 732,
-				"line_ending": "Unix"
+				"buffer_size": 979,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/index.pug",
+			"file": "app/js/myscripts.js",
 			"settings":
 			{
-				"buffer_size": 44,
+				"buffer_size": 786,
 				"line_ending": "Windows"
 			}
 		}
@@ -47,23 +79,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 372.0,
 		"selected_items":
 		[
-			[
-				"ip",
-				"Package Control: Install Package"
-			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
 				"",
+				"About"
+			],
+			[
+				"ip",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 386.0
+		"width": 408.0
 	},
 	"console":
 	{
@@ -84,22 +116,35 @@
 	},
 	"expanded_folders":
 	[
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc"
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/js",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/libs/superfish/dist",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/includes"
 	],
 	"file_history":
 	[
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/layout.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/main.sass",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/gulpfile.js",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes/_mixins.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes/_footer.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/index.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/includes/_mixins.sass",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/includes/_headr.sass",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/includes/_footer.sass",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/package.json",
 		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/gulpfile.js",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/.gitignore",
 		"/C/Users/codegrabber/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes/header.pug",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/index.html",
 		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/package.json",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/package.json",
 		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/app/layout.pug",
 		"/D/YandexDisk/YandexDisk/Server/domains/jetro.loc/app/index.pug",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/index.pug",
-		"/D/YandexDisk/YandexDisk/Server/domains/php.loc/text.txt",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/layout.pug"
+		"/D/YandexDisk/YandexDisk/Server/domains/php.loc/text.txt"
 	],
 	"find":
 	{
@@ -117,6 +162,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n@"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -134,76 +180,176 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/layout.pug",
+					"file": "app/sass/_settings.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1027,
+						"buffer_size": 300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								936,
-								936
+								109,
+								109
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Pug/Syntaxes/PyPug.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
-						"translation.y": 285.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1101,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								396,
-								396
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "package.json",
+					"buffer": 1,
+					"file": "app/includes/_mixins.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 732,
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/includes/_header.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/sass/includes/_headr.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/sass/includes/_topmenu.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1624,
 						"regions":
 						{
 						},
@@ -216,7 +362,43 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/sass/_media.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -224,36 +406,38 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/index.pug",
+					"buffer": 7,
+					"file": "app/js/myscripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 786,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								403,
+								403
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Pug/Syntaxes/PyPug.tmLanguage",
-							"tab_size": 2
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -261,7 +445,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 56.0
 	},
 	"input":
 	{
@@ -297,7 +481,7 @@
 	"project": "LawA.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 106.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -332,7 +516,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 287.0,
+	"side_bar_width": 224.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
