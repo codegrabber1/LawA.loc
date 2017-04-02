@@ -6,7 +6,7 @@
   $("#my-menu").find("*").attr('style', '');
   $("#my-menu").find("ul").removeClass("sf-menu");
   $("#my-menu").mmenu({
-    extensions : [ 'widescreen', 'theme-dark', 'pageshadow', 'effect-menu-slide', 'effect-listitems-slide' ],
+    extensions : [ 'widescreen', 'theme-light', 'pageshadow', 'effect-menu-slide', 'effect-listitems-slide' ],
     navbar: {
       title: "Anton Krasov"
     }
