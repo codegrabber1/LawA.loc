@@ -1,0 +1,114 @@
+.b_index
+  background-color: $blockbg_color
+  overflow: hidden
+  padding: 0
+  margin: 20px 0
+.topmainslider
+  background-color: #fff
+  position: relative
+  height: 90vh
+  overflow: hidden
+.main_slider
+  width: 100%
+  height: 1px
+  .s_item
+    border: 0 solid blue
+  img
+    height: 90vh
+.main_form
+  border: 0 solid blue
+  position: absolute
+  right: 0
+  top: 0
+  width: 30%
+  z-index: 7
+  background-color: #333
+  opacity: 1
+  height: 100%
+  .b_mainform
+    width: 80%
+    text-align: center
+    padding: 0
+    margin: 136px auto
+    h3
+      text-transform: uppercase
+      margin: 8px 0
+      color: #ccc
+      background-color: #f60
+.owlC,
+.owlslider
+  .owl-item
+    float: left
+    padding: 0
+.owlC
+  .owl-nav
+    width: 50%
+    margin: 0 auto
+    text-align: center
+  .owl-nav [class*=owl-]
+    color: #FFF
+    font-size: 14px
+    margin: 5px
+    padding: 4px 7px
+    background: #D6D6D6
+    display: inline-block
+    cursor: pointer
+    border-radius: 3px
+    text-align: center
+    .owl-prev,
+    .owl-next
+      display: block
+      margin-right: 10px
+.owlslider
+  .owl-nav
+    div
+      width: 37px
+      height: 140px
+      //background: url("images/red_arrow.png") no-repeat
+      position: absolute
+      top: 180px
+      cursor: pointer
+      &.owl-prev
+        left: 20px
+      &.owl-next
+        right: 20px
+        z-index: 10
+        background-position: top right
+  .owl-dots
+    position: relative
+    top: 120px
+    // width: 30%
+    cursor: pointer
+    z-index: 3
+    // margin: 0 auto
+    .owl-dot
+      width: 15px
+      height: 15px
+      float: none
+      margin: 30px 10px
+      border-radius: 100%
+      border: 2px solid #f60
+      // background-color: #000
+      &.active
+        background-color: #f60
+.block_lstart
+  border: 1 solid rgba(0, 0, 0, 0.1)
+  margin: 20px 0
+  padding: 0
+  @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.2))
+  h3
+    text-align: center
+    margin: 5px 0
+    line-height: 23px
+  img
+    border: 0 solid #ccc
+    margin: 0 auto
+  p
+    line-height: 23px
+    padding: 0 20px
+  .m_button
+    //border: 1px solid $active_link
+    width: 50%
+    margin: 10px auto
+    text-align: center
+    padding: 8px

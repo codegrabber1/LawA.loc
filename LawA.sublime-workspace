@@ -15,15 +15,23 @@
 			"file": "app/sass/_settings.sass",
 			"settings":
 			{
-				"buffer_size": 300,
+				"buffer_size": 448,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/includes/_mixins.pug",
+			"file": "app/sass/includes/_topmenu.sass",
 			"settings":
 			{
-				"buffer_size": 640,
+				"buffer_size": 1098,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/includes/_footer.pug",
+			"settings":
+			{
+				"buffer_size": 644,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +39,7 @@
 			"file": "app/includes/_header.pug",
 			"settings":
 			{
-				"buffer_size": 385,
+				"buffer_size": 397,
 				"line_ending": "Windows"
 			}
 		},
@@ -44,18 +52,10 @@
 			}
 		},
 		{
-			"file": "app/sass/includes/_topmenu.sass",
+			"file": "app/sass/includes/_footer.sass",
 			"settings":
 			{
-				"buffer_size": 1064,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 1624,
+				"buffer_size": 775,
 				"line_ending": "Windows"
 			}
 		},
@@ -66,20 +66,12 @@
 				"buffer_size": 979,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "app/js/myscripts.js",
-			"settings":
-			{
-				"buffer_size": 786,
-				"line_ending": "Windows"
-			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 372.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -95,7 +87,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 408.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -120,16 +112,17 @@
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/js",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/libs/superfish/dist",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/includes"
 	],
 	"file_history":
 	[
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes/_mixins.pug",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/gulpfile.js",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/includes/_topmenu.sass",
+		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/js/myscripts.js",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/layout.pug",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/main.sass",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/gulpfile.js",
-		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes/_mixins.pug",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/includes/_footer.pug",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/index.pug",
 		"/D/YandexDisk/YandexDisk/Server/domains/LawA.loc/app/sass/includes/_mixins.sass",
@@ -180,7 +173,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -189,15 +182,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 300,
+						"buffer_size": 448,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								109
+								34,
+								22
 							]
 						],
 						"settings":
@@ -206,34 +199,102 @@
 							"colorcode": true,
 							"git_gutter_enabled": true,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/includes/_mixins.pug",
+					"file": "app/sass/includes/_topmenu.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 640,
+						"buffer_size": 1098,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								127,
+								127
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/includes/_footer.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/includes/_header.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
 							"colorcode": true,
 							"git_gutter_enabled": true,
 							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
@@ -244,43 +305,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/includes/_header.pug",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								201,
-								201
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
-							"colorcode": true,
-							"git_gutter_enabled": true,
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
-							"tab_size": 2
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "app/sass/includes/_headr.sass",
 					"semi_transient": false,
 					"settings":
@@ -308,24 +337,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/sass/includes/_topmenu.sass",
+					"buffer": 5,
+					"file": "app/sass/includes/_footer.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1064,
+						"buffer_size": 775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								505,
+								505
 							]
 						],
 						"settings":
@@ -337,43 +366,10 @@
 							"tab_size": 2
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
-							"colorcode": true,
-							"git_gutter_enabled": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 780.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -408,44 +404,13 @@
 					},
 					"stack_index": 6,
 					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/js/myscripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								403,
-								403
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
-							"colorcode": true,
-							"git_gutter_enabled": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 56.0
+		"height": 36.0
 	},
 	"input":
 	{

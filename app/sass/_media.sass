@@ -1,20 +1,91 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px)
-  /**/
+  .sf-menu a
+    //padding: .75em .8em
+@media only screen and (max-width: 1024px)
+  .sf-menu a
+    padding: .75em .8em !important
+  .sf-arrows .sf-with-ul
+    padding-right: 2em !important
+  .topmainslider,
+  .main_slider img
+    height: 65vh
+  .main_form
+    width: 40%
+    opacity: .8
+    .b_mainform
+      margin: 100px auto
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .sf-menu
     display: none !important
+  .topmainslider,
+  .main_slider img
+    height: 35vh
+  footer .topfooter .f_widget
+    width: 100%
 @media only screen and (max-width: 768px)
-  /**/
+  .topmainslider,
+  .main_slider img
+    height: 42vh
+  .main_form
+    .b_mainform
+      margin: 40px auto
+  .owlslider .owl-dots
+    top: 80px
+  .blog_info li
+    display: block
+    > a
+      text-align: center
+      font-size: 14px
+  footer .topfooter .f_widget li a
+    padding: 10px 0
+  footer .subfooter
+    ul
+      float: none
+      width: 50%
+      margin: 0 auto
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 667px)
+  .topmainslider,
+  .main_slider img
+    height: 100vh
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px)
+  .topmainslider,
+  .main_slider img
+    height: 85vh
+  .blog_intro
+    .s_date
+      float: none
+      span
+        display: inline-block
+    .intro_text
+      margin: 8px 15px
+  .owlslider .owl-dots
+    top: 40px
+  .owlC
+    .owl-item img
+      margin: 0 auto
+
   /* Extra Small Devices, Phones */
 @media only screen and (max-width: 380px)
-  /* Custom, iPhone Retina */
+  .topmainslider,
+  .main_slider img
+    height: 32vh
+  .owlslider
+    .owl-dots
+      top: 25px
+      .owl-dot
+        width: 12px
+        height: 12px
+        margin: 20px 10px
 @media only screen and (max-width: 320px)
-  /**/
+  .topmainslider,
+  .main_slider img
+    height: 40vh
+
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */

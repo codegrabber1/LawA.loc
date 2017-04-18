@@ -6,18 +6,22 @@
   <head>
     <meta charset="utf-8">
     <title>LawA</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&amp;amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" media="all" type="text/css" href="style.css"><!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script><![endif]-->
   </head>
   <body>
     <div class="wrraper">
+      <!-- mixin breadcrumb-->
+      <!-- mixin breadcrumbs-->
       <header class="clearfix">
         <div class="header_main clearfix">
           <div class="container">
             <div class="row">
               <div class="col-xs-8 col-sm-4 col-md-4">
-                <h1><a href="./">Anton Krasov</a></h1>
+                <h1><a href="./">Anton Krasov</a><span>antonkrasov</span></h1>
               </div>
               <div class="col-xs-4 col-sm-8 col-md-8">
                 <nav>
@@ -39,7 +43,7 @@
                             </ul>
                           </li>
                           <li><a href="Other Legal help.html">Other Legal help</a></li>
-                          <li><a href="Blog.html">Blog</a></li>
+                          <li><a href="blog.html">blog</a></li>
                           <li><a href="Products.html">Products</a></li>
                         </ul>
                 </nav>
@@ -47,16 +51,181 @@
             </div>
           </div>
         </div>
-      </header>
-      <main class="clearfix">
-        <section id="topmain">
+        <section class="topmain">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <p>hello</p>
+              <div class="col-xs-12">
+                <div class="b_info clearfix">
+                  <div class="col-xs-12 col-sm-4 col-md-4 top_contact"><i class="fa fa-phone-square" aria-hidden="true"></i>: 8(093)123-45-56,&nbsp;&nbsp;&nbsp;8(093)123-45-56</div>
+                  <div class="col-xs-12 col-sm-4 col-md-4 top_contact"><i class="fa fa-skype" aria-hidden="true"></i>: anton  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-4 top_contact"><i class="fa fa-envelope" aria-hidden="true"></i>: antonkrasov@ukr.net</div>
+                </div>
               </div>
-              <div class="col-md-6">
-                <p>hello2</p>
+            </div>
+          </div>
+        </section>
+      </header>
+      <main class="clearfix">
+        <section class="topmainslider clearfix">
+          <div class="main_slider clearfix">
+            <div class="owlslider clearfix">
+              <div class="s_item"><img class="owl-lazy" data-src="images/1.jpg" alt="lawyer"></div>
+              <div class="s_item"><img class="owl-lazy" data-src="images/6.jpg" alt="lawyer"></div>
+              <div class="s_item"><img class="owl-lazy" data-src="images/4.jpg" alt="lawyer"></div>
+              <div class="s_item"><img class="owl-lazy" data-src="images/3.jpg" alt="lawyer"></div>
+            </div>
+            <div class="main_form clearfix">
+              <div class="col-xs-12">
+                <div class="b_mainform clearfix">
+                  <div class="hidden-xs hidden-sm">
+                    <h3>free consultation</h3>
+                    <form method="post" action="">
+                      <input type="text" placeholder="Name">
+                      <input type="email" placeholder="Email">
+                      <textarea placeholder="Your text"> </textarea>
+                      <input type="submit" value="send">
+                    </form>
+                  </div>
+                  <div class="visible-xs">
+                    <input type="submit" value="free consultation">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="topmain">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="b_index clearfix">
+                  <div class="ps_widget clearfix brdr">
+                    <h2>Latest video</h2>
+                  </div>
+                  <div class="owlC">
+                    <div class="col-xs-12"><img class="owl-lazy" data-src="https://placehold.it/350x250&amp;text=3" alt="">
+                      <div class="blog_info">
+                        <ul> 
+                          <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13.04.2017</a></li>
+                          <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Author: Anton Krasov</a></li>
+                        </ul>
+                      </div>
+                      <h3><a href="#">Чому затягується процес надання статусу УБД    </a></h3>
+                    </div>
+                    <div class="col-xs-12"><img class="owl-lazy" data-src="https://placehold.it/350x250&amp;text=3" alt="">
+                      <div class="blog_info">
+                        <ul> 
+                          <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13.04.2017</a></li>
+                          <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Author: Anton Krasov</a></li>
+                        </ul>
+                      </div>
+                      <h3><a href="#">Чому затягується процес надання статусу УБД</a></h3>
+                    </div>
+                    <div class="col-xs-12"><img class="owl-lazy" data-src="https://placehold.it/350x250&amp;text=3" alt="">
+                      <div class="blog_info">
+                        <ul> 
+                          <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13.04.2017</a></li>
+                          <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Author: Anton Krasov</a></li>
+                        </ul>
+                      </div>
+                      <h3><a href="#">Чому затягується процес надання статусу УБД</a></h3>
+                    </div>
+                    <div class="col-xs-12"><img class="owl-lazy" data-src="https://placehold.it/350x250&amp;text=3" alt="">
+                      <div class="blog_info">
+                        <ul> 
+                          <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13.04.2017</a></li>
+                          <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Author: Anton Krasov</a></li>
+                        </ul>
+                      </div>
+                      <h3><a href="#">Чому затягується процес надання статусу УБД              </a></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="topmain">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="b_index clearfix">
+                  <div class="ps_widget clearfix">
+                    <h2>Latest articles</h2>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block_lstart"><a href="#"><img src="#" alt="pict"></a>
+                      <h3>The name of article</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                      </p>
+                      <p class="m_button"><a href="#">Read more       </a></p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block_lstart"><a href="#"><img src="#" alt="pict"></a>
+                      <h3>The name of article</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                      </p>
+                      <p class="m_button"><a href="#">Read more</a></p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block_lstart wow bounceIn animated" data-wow-delay="0.8s"><a href="#"><img src="#" alt="pict"></a>
+                      <h3>The name of article</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                      </p>
+                      <p class="m_button"><a href="#">Read more</a></p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block_lstart"><a href="#"><img src="#" alt="pict"></a>
+                      <h3>The name of article</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                      </p>
+                      <p class="m_button"><a href="#">Read more</a></p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block_lstart"><a href="#"><img src="#" alt="pict"></a>
+                      <h3>The name of article</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                      </p>
+                      <p class="m_button"><a href="#">Read more</a></p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block_lstart"><a href="#"><img src="#" alt="pict"></a>
+                      <h3>The name of article</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                      </p>
+                      <p class="m_button"><a href="#">Read more</a></p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -66,14 +235,40 @@
         <div class="topfooter">
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-4">
-                <p>topfooter</p>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="f_widget">
+                  <h3>Widget title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+                </div>
               </div>
-              <div class="col-xs-12 col-sm-4 col-md-4">
-                <p>topfooter</p>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="f_widget">
+                  <h3>Widget title</h3>
+                  <ul>
+                    <li><img src="" alt="pict"><a href="#1">
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.<span>3 min ago</span></a></li>
+                    <li><img src="" alt="pict"><a href="#1">
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.<span>3 min ago</span></a></li>
+                    <li><img src="" alt="pict"><a href="#1">
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.<span>3 min ago</span></a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="col-xs-12 col-sm-4 col-md-4">
-                <p>topfooter</p>
+              <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="f_widget">
+                  <h3>Widget title</h3>
+                  <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <ul class="adres">
+                      <li><strong>Address:</strong> Lorem ipsum Lorem ipsum Lorem ipsum</li>
+                      <li><strong>City:</strong> Lorem ipsum</li>
+                      <li>Україна</li>
+                      <li><strong>ZipCode:</strong> 18345</li>
+                    </ul>
+                  </p>
+                  <p><i class="fa fa-mobile" aria-hidden="true"></i><span>093-123-45-67</span></p>
+                  <p><i class="fa fa-envelope" aria-hidden="true"></i><span>antonkrasov.ukr.net</span></p>
+                  <p><i class="fa fa-skype" aria-hidden="true"></i><span>anton        </span></p>
+                </div>
               </div>
             </div>
           </div>
@@ -81,11 +276,15 @@
         <div class="subfooter">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <p>subfooter</p>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <p>&copy; 2017</p>
               </div>
-              <div class="col-md-6">
-                <p>subfooter</p>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <ul>
+                  <li><a class="f_facebook" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                  <li><a class="f_skype" href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                  <li><a class="f_youtube" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
               </div>
             </div>
           </div>

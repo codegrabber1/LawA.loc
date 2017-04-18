@@ -1,11 +1,179 @@
 extends layout
 block content
-  section#topmain
+  section.topmainslider.clearfix
+    .main_slider.clearfix
+      .owlslider.clearfix
+        .s_item
+          img(class="owl-lazy" data-src="images/1.jpg" alt="lawyer" )
+        .s_item
+          img(class="owl-lazy" data-src="images/6.jpg" alt="lawyer" )
+        .s_item
+          img(class="owl-lazy" data-src="images/4.jpg" alt="lawyer" )
+        .s_item
+          img(class="owl-lazy" data-src="images/3.jpg" alt="lawyer" )    
+      .main_form.clearfix
+        .col-xs-12
+          .b_mainform.clearfix
+            .hidden-xs.hidden-sm
+              h3.
+                free consultations
+              form(method="post" action="")
+                  input(type="text" placeholder="Name")
+                  input(type="email" placeholder="Email")
+                  textarea(placeholder="Your text")  
+                  input(type="submit" value="send")
+            .visible-xs
+              input(type="submit" value="free consultation")              
+  section.topmain
+    .container
+      .row
+        .col-xs-12
+          .b_index.clearfix
+            .ps_widget.clearfix.brdr
+              h2.
+                Latest video
+            .owlC
+              .col-xs-12
+                //- iframe(width="350" height="250" src="https://www.youtube.com/embed/M_gtY14CvLU" frameborder="0" allowfullscreen) 
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="" )
+                .blog_info
+                  ul 
+                    li
+                      a(href="#")
+                        i(class="fa fa-calendar" aria-hidden="true")
+                        | 13.04.2017
+                    li
+                      a(href="#")
+                        i(class="fa fa-user" aria-hidden="true")
+                        | Author: Anton Krasov
+                h3
+                  a(href="#").
+                    Чому затягується процес надання статусу УБД    
+              .col-xs-12
+                //- iframe(width="350" height="250" src="https://www.youtube.com/embed/sv8gQbH6CQs" frameborder="0" allowfullscreen) 
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="" )
+                .blog_info
+                  ul 
+                    li
+                      a(href="#")
+                        i(class="fa fa-calendar" aria-hidden="true")
+                        | 13.04.2017
+                    li
+                      a(href="#")
+                        i(class="fa fa-user" aria-hidden="true")
+                        | Author: Anton Krasov
+                h3
+                  a(href="#").
+                    Чому затягується процес надання статусу УБД
+              .col-xs-12
+                //- iframe(width="350" height="250" src="https://www.youtube.com/embed/qmoV9iAyAew" frameborder="0" allowfullscreen) 
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="" )
+                .blog_info
+                  ul 
+                    li
+                      a(href="#")
+                        i(class="fa fa-calendar" aria-hidden="true")
+                        | 13.04.2017
+                    li
+                      a(href="#")
+                        i(class="fa fa-user" aria-hidden="true")
+                        | Author: Anton Krasov
+                h3
+                  a(href="#").
+                    Чому затягується процес надання статусу УБД
+              .col-xs-12
+                //- iframe(width="350" height="250" src="https://www.youtube.com/embed/GXDPuFEZFc8" frameborder="0" allowfullscreen)  
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="" )
+                .blog_info
+                  ul 
+                    li
+                      a(href="#")
+                        i(class="fa fa-calendar" aria-hidden="true")
+                        | 13.04.2017
+                    li
+                      a(href="#")
+                        i(class="fa fa-user" aria-hidden="true")
+                        | Author: Anton Krasov
+                h3
+                  a(href="#").
+                    Чому затягується процес надання статусу УБД              
+  section.topmain
     .container
         .row
-          .col-md-6
-            p.
-              hello
-          .col-md-6
-            p.
-              hello2
+          .col-xs-12
+            .b_index.clearfix
+              .ps_widget.clearfix
+                h2.
+                  Latest articles
+              .col-xs-12.col-sm-6.col-md-4
+                .block_lstart
+                  a(href="#"): img(src="#", alt="pict") 
+                  h3.
+                    The name of article
+                  p.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                  p.m_button
+                    a(href="#") Read more       
+              .col-xs-12.col-sm-6.col-md-4
+                .block_lstart
+                  a(href="#"): img(src="#", alt="pict") 
+                  h3.
+                    The name of article
+                  p.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                  p.m_button
+                    a(href="#") Read more
+              .col-xs-12.col-sm-6.col-md-4
+                div(class="block_lstart wow bounceIn animated", data-wow-delay="0.8s")
+                  a(href="#"): img(src="#", alt="pict") 
+                  h3.
+                    The name of article
+                  p.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                  p.m_button
+                    a(href="#") Read more
+              .col-xs-12.col-sm-6.col-md-4
+                .block_lstart
+                  a(href="#"): img(src="#", alt="pict") 
+                  h3.
+                    The name of article
+                  p.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                  p.m_button
+                    a(href="#") Read more
+              .col-xs-12.col-sm-6.col-md-4
+                .block_lstart
+                  a(href="#"): img(src="#", alt="pict") 
+                  h3.
+                    The name of article
+                  p.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                  p.m_button
+                    a(href="#") Read more
+              .col-xs-12.col-sm-6.col-md-4
+                .block_lstart
+                  a(href="#"): img(src="#", alt="pict") 
+                  h3.
+                    The name of article
+                  p.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                  p.m_button
+                    a(href="#") Read more

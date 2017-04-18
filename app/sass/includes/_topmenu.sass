@@ -1,5 +1,6 @@
 nav
   float: right
+  padding: 12px 0
   .sf-arrows .sf-with-ul::after
     border-top-color: rgba(0,0,0,.5)
   .sf-menu
@@ -17,11 +18,12 @@ nav
     padding: 10px
     a
       text-decoration: none
-      color: #333
-      font-size: em(17px)
+      color: $link
+      font-size: 14px
       &:hover
         text-decoration: none
-        color: $link
+        color: $active_link
+        font-weight: bold
 .toggle-mnu
   display: block
   width: 28px

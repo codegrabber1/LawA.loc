@@ -1,0 +1,45 @@
+extends layout
+block content
+  .container
+    .row
+      .col-xs-12
+        .breadcrumbs
+          a(href="./") Home 
+          a(href="blog.html") &raquo; blog &raquo;
+          i The title of article
+      .col-xs-12.col-sm-12.col-md-8
+        .blog_intro.clearfix
+          .s_date
+            span.
+              03.04.
+            span.
+              2017
+          .intro_text.clearfix
+            h2.
+              The title of article
+            .blog_info
+              ul 
+                li
+                  a(href="#")
+                    i(class="fa fa-comments" aria-hidden="true")
+                    | 2comments
+                li
+                  a(href="#")
+                    i(class="fa fa-user" aria-hidden="true")
+                    | Author: Anton Krasov      
+            p.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+              nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+              officia deserunt mollit anim id est laborum.
+          .b_related.clearfix.
+            related posts  
+        .b_comments.clearfix
+          p.
+            comments    
+      .col-xs-12.col-sm-12.col-md-4
+        include includes/_sidebar      

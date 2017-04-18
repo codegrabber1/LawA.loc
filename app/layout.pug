@@ -7,16 +7,19 @@ html(lang="en")
   head
     meta(charset="utf-8")
     title LawA
-    link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&amp;subset=cyrillic" rel="stylesheet")    
     link(rel="stylesheet", media="all", type="text/css", href="style.css")
     <!--[if lt IE 9]>
     script(src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" )
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" )
     <![endif]-->
   body
     .wrraper
       include includes/_header
       main.clearfix
         block content
+          include includes/_mixins
       include includes/_footer
     <!-- scripts -->
     script(src="js/libs.js")

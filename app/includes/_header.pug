@@ -6,9 +6,25 @@ header.clearfix
             .col-xs-8.col-sm-4.col-md-4
               h1
                 a(href="./") Anton Krasov
+                span.
+                  slogan
             .col-xs-4.col-sm-8.col-md-8
               nav
                 .mobile-mnu.hidden-md.hidden-lg
                   a(href="#").toggle-mnu.hidden-lg
                     span
                 +menu(menuItem)
+  section
+    .container
+      .row
+        .col-xs-12
+          .b_info.clearfix
+            .col-xs-12.col-sm-4.col-md-4.top_contact
+              i(class="fa fa-phone-square" aria-hidden="true")
+              | : 8(093)123-45-56,&nbsp;&nbsp;&nbsp;8(093)123-45-56
+            .col-xs-12.col-sm-4.col-md-4.top_contact
+              i(class="fa fa-skype" aria-hidden="true")
+              | : anton  
+            .col-xs-12.col-sm-4.col-md-4.top_contact
+              i(class="fa fa-envelope" aria-hidden="true")
+              | : antonkrasov@ukr.net

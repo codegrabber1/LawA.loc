@@ -1,12 +1,30 @@
-// colors
-$link: green
 *
   margin: 0
   padding: 0
+// colors
+//#FAF9F5
+$mainbg_col: #e9ebee
+$blockbg_color: #fff
+$link: #333
+$active_link: #f00
+$foot_bg: #333
+$copy_bg: #1d1e20
+$inver_color: #fff
+$facebook: #3333FF
+$skype: #3399FF
+$yell_col: yellow
+$red_col: #f00
 body
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif !important
+  font-size: 16px
   min-width: 320px
-ul li
+  margin: 0
+  width: 100%
+  background-color: $mainbg_col !important
+ul
+  margin: 0
+  padding: 0
+  li
     list-style: none
 h1,
 h2,
@@ -16,15 +34,82 @@ h5,
 h6
   margin: 0
   padding: 0
+  font-family: 'Roboto Condensed', sans-serif
+img
+  display: block
+  max-width: 100%
+  height: auto
 a
-
+  color: $link
   &:hover
     text-decoration: none
+    color: $active_link
+*:focus
+  outline: none
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea
+  border: 0
+  border-bottom: 0 solid $red_col
+  width: 100%
+  padding: 10px
+  margin: 8px 0
+  @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.2), $inset: true)
+  &:focus
+    border-bottom: 1px solid $red_col
+input[type="submit"]
+  width: 100%
+  border: 0
+  @include btnstyle($red_col, $inver_color)
 main,
 .header_main,
-section
+section,
+aside
   width: 100%
   margin: 0 auto
   border: 0px solid red
+  .ps_widget
+    padding: 0
+    margin: 10px 0
+    line-height: 25px
+    word-wrap: break-word
+    overflow: hidden
+    width: 90%
+    margin: 0 auto
+    h2
+        text-transform: uppercase
+        overflow: hidden
+        text-align: center
+        margin: 30px 0
+        &:before,
+        &:after
+         background-color: #ccc
+         content: ""
+         display: inline-block
+         height: 1px
+         position: relative
+         vertical-align: middle
+         width: 50%
+        &:before
+         right: 0.5em
+         margin-left: -50%
+        &:after
+         left: 0.5em
+         margin-right: -50%
+  .topmain
+    width: 100%
+    background-color: #fff
+.blog_intro,
+.sb_widget
+  width: 100%
+  border: 0 solid #d1d1d1
+  background-color: $blockbg_color
+  margin-bottom: 20px
+  padding: 15px 0
+  @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.2))
 header
-  border: 1px solid blue
+  border-bottom: 1 solid rgba(0, 0, 0, 0.1)
+  @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.2))
+.breadcrumbs
+  padding: 10px 0

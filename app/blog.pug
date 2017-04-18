@@ -1,0 +1,121 @@
+extends layout
+block content
+  include _mixins
+  section.topmain
+    .container
+      .row
+        .col-xs-12
+          .breadcrumbs
+            +breadcrumb("blog")
+        .col-xs-12.col-sm-12.col-md-8
+          .blog_intro.clearfix
+            .s_date
+              span.
+                03.04.
+              span.
+                2017
+            .intro_text.clearfix
+              h2.
+                The title of article
+              .blog_info
+                ul 
+                  li
+                    a(href="#")
+                      i(class="fa fa-comments" aria-hidden="true")
+                      | 2comments
+                  li
+                    a(href="#")
+                      i(class="fa fa-user" aria-hidden="true")
+                      | Author: Anton Krasov      
+              p.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum.
+            p.m_button
+              a(href="blog_view.html") Read more              
+          .blog_intro.clearfix
+            .s_date
+              span.
+                03.04.
+              span.
+                2017
+            .intro_text.clearfix
+              h2.
+                The title of article
+              .blog_info
+                ul 
+                  li
+                    a(href="#")
+                      i(class="fa fa-comments" aria-hidden="true")
+                      | 2comments
+                  li
+                    a(href="#")
+                      i(class="fa fa-user" aria-hidden="true")
+                      | Author: Anton Krasov      
+              p.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum.
+            p.m_button
+              a(href="blog_view.html") Read more
+          .blog_intro.clearfix
+            .s_date
+              span.
+                03.04.
+              span.
+                2017
+            .intro_text.clearfix
+              h2.
+                The title of article
+              .blog_info
+                ul 
+                  li
+                    a(href="#")
+                      i(class="fa fa-comments" aria-hidden="true")
+                      | 2comments
+                  li
+                    a(href="#")
+                      i(class="fa fa-user" aria-hidden="true")
+                      | Author: Anton Krasov      
+              p.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum.
+            p.m_button
+              a(href="blog_view.html") Read more        
+          .b_pagination
+            ul
+              li
+                a(href="#").page &laquo;
+              li
+                a(href="#").page 1
+              li
+                a(href="#").page 2
+              li
+                a(href="#").page 3
+              li
+                a(href="#").page.active 4
+              li
+                a(href="#").page ...
+              li
+                a(href="#").page 6
+              li
+                a(href="#").page &raquo;              
+        .col-xs-12.col-sm-12.col-md-4
+          include includes/_sidebar     
+    

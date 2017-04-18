@@ -2,8 +2,83 @@ footer
   width: 100%
   .topfooter,
   .subfooter
-    color: #fff
+    color: $inver_color
   .topfooter
-    background-color: #333
+    margin: 0
+    padding: 20px 0
+    background-color: $foot_bg
+    border-bottom: 1px solid #18181a
+    .f_widget
+      width: 90%
+      border: 0 solid blue
+      h3
+        text-transform: uppercase
+        margin-bottom: 10px
+        padding: 5px 10px
+        border-bottom: 2px solid blue
+      p
+        line-height: 23px
+        font-size: 14px
+        i.fa
+          //margin-right: 10px
+          font-size: 25px
+          float: left
+          padding: 2px 0
+          &.fa-envelope
+            font-size: 15px
+          &.fa-skype
+            font-size: 20px
+        span
+          margin-left: 20px
+      ul.adres
+        margin-left: 25px
+        li
+          display: block
+          border-bottom: 0
+          padding: 0
+          a
+            border-bottom: 0
+      li
+        display: block
+        margin: 0
+        padding: 10px 0
+        border-bottom: 1px solid #242428
+        overflow: hidden
+        img
+          float: left
+          margin-right: 10px
+          width: 80px
+          height: 80px
+          background-color: #ccc
+        a
+          color: $inver_color
+          display: block
+          padding: 0
+          border-bottom: 1px solid #333
+          font-size: 14px
+          &:hover
+            color: $active_link
+          span
+            display: block
+            font-size: 12px
+            color: #ccc
   .subfooter
-    background-color: #000
+    border-top: 1px solid #242428
+    padding: 10px 0
+    background-color: $copy_bg
+    ul
+      float: right
+      li
+        float: left
+        display: block
+        margin-right: 10px
+        a
+          display: block
+          font-size: 23px
+          text-align: center
+          &.f_youtube
+            color: #f00
+          &.f_facebook
+            color: #3333FF
+          &.f_skype
+            color: #3399FF

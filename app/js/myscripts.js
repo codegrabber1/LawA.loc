@@ -1,3 +1,4 @@
+jQuery(document).ready(function($){
 // top menu
 
   $(".sf-menu").superfish();
@@ -25,3 +26,66 @@
         return false;
    });
 // end top menu
+// main big slider
+var owls = $('.owlslider');
+owls.owlCarousel({
+  //animateIn: 'bounceIn',
+  loop:true,
+  autoplay: false,
+  //autoplaySpeed: 5000,
+  margin: 0,
+  responsiveClass:true,
+  items: 1,
+  autoHeight: false,
+  lazyLoad:true,
+  center: true,
+  dots: true,
+  responsive:{
+      0:{
+          items:1,
+          nav:false,
+      },
+      768:{
+          items:1,
+          nav:false,
+      },
+      1366:{
+          items:1,
+          nav:true,
+          dots: true,
+          //autoHeight: true,
+      }
+  },
+  navText: '',
+});
+$('.owlC').owlCarousel({
+    loop:true,
+    margin: 25,
+    responsiveClass:true,
+    lazyLoad:true,
+    autoplay: true,
+    //center: true,
+    nav:false,
+    responsive:{
+        0:{
+            items:1,
+        },
+        480:{
+            items:1,
+            center: true,
+            //margin: 10,
+        },
+        768:{
+            items:3,
+            margin: 10,
+        },
+        1024:{
+            items:3,
+            margin: 15,
+        },
+        1366:{
+            items:3,
+            nav:false,        }
+    }
+  });
+});// end ready
