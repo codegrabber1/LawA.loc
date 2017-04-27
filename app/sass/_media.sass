@@ -8,9 +8,8 @@
     padding: .75em .8em !important
   .sf-arrows .sf-with-ul
     padding-right: 2em !important
-  .topmainslider,
-  .main_slider img
-    height: 65vh
+  .topmainslider
+    height: 75vh
   .main_form
     width: 40%
     opacity: .8
@@ -22,25 +21,25 @@
     display: none !important
   .topmainslider,
   .main_slider img
-    height: 35vh
+    height: auto
   footer .topfooter .f_widget
     width: 100%
 @media only screen and (max-width: 768px)
   .topmainslider,
   .main_slider img
-    height: 42vh
+    height: auto
   .main_form
     .b_mainform
       margin: 40px auto
   .owlslider .owl-dots
     top: 80px
   .blog_info li
-    display: block
+    // display: block
     > a
       text-align: center
       font-size: 14px
   footer .topfooter .f_widget li a
-    padding: 10px 0
+    padding: 0
   footer .subfooter
     ul
       float: none
@@ -49,20 +48,24 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 667px)
   .topmainslider,
-  .main_slider img
-    height: 100vh
+  .topmainslider img
+    height: auto
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px)
   .topmainslider,
   .main_slider img
-    height: 85vh
+    height: auto
   .blog_intro
-    .s_date
+    .s_date,
+    .left_side
       float: none
       span
         display: inline-block
     .intro_text
       margin: 8px 15px
+      h2,
+      .blog_info
+        text-align: center
   .owlslider .owl-dots
     top: 40px
   .owlC
@@ -73,7 +76,7 @@
 @media only screen and (max-width: 380px)
   .topmainslider,
   .main_slider img
-    height: 32vh
+    height: auto
   .owlslider
     .owl-dots
       top: 25px
@@ -82,9 +85,9 @@
         height: 12px
         margin: 20px 10px
 @media only screen and (max-width: 320px)
-  .topmainslider,
-  .main_slider img
-    height: 40vh
+  // .topmainslider,
+  // .main_slider img
+  //   height: 40vh
 
 
 /*==========  Mobile First Method  ==========*/

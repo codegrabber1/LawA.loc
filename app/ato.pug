@@ -1,0 +1,56 @@
+extends layout
+block content
+  include _mixins
+  section
+    .container-fluid
+      .row
+        .col-xs-12
+          .breadcrumbs
+            +breadcrumb("blog")
+        .col-xs-12.col-sm-12.col-md-8.grid
+          .block_lstart.grid-item
+            a(href="#"): img(src="http://placehold.it/400x240", alt="pict") 
+            h3.
+              The name of article
+            p.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat. 
+            p.m_button
+              a(href="#") Read more
+          .block_lstart.grid-item
+            a(href="#"): img(src="http://placehold.it/400x240", alt="pict") 
+            h3.
+              The name of article
+            p.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat. 
+            p.m_button
+              a(href="#") Read more
+          .block_lstart.grid-item
+            a(href="#"): img(src="http://placehold.it/400x240", alt="pict") 
+            h3.
+              The name of article
+            p.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat. 
+            p.m_button
+              a(href="#") Read more
+          .block_lstart.grid-item
+            a(href="#"): img(src="http://placehold.it/400x240", alt="pict") 
+            h3.
+              The name of article
+            p.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat. 
+            p.m_button
+              a(href="#") Read more       
+        .col-xs-12.col-sm-12.col-md-4
+          include includes/_sidebar

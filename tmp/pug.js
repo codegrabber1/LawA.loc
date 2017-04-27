@@ -8,7 +8,7 @@ const pug   	 	 = require('gulp-pug');
 module.exports = function(options) {
   return function buildHTML(){
     return multipipe(
-      gulp.src('app/blog.pug'),
+      gulp.src('app/**/*.pug'),
       pug({
         'pretty': true,
         'compileDebug': true

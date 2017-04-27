@@ -9,11 +9,16 @@ block content
           i The title of article
       .col-xs-12.col-sm-12.col-md-8
         .blog_intro.clearfix
-          .s_date
-            span.
-              03.04.
-            span.
-              2017
+          .left_side.clearfix
+            .s_date
+              span.
+                03.04.
+              span.
+                2017
+            //- .blog_soc.clearfix
+            //-   .social_btn
+            //-       a(class="soc_btn_item" href="#")
+            //-         i(class="fa fa-facebook-official" aria-hidden="true")      
           .intro_text.clearfix
             h2.
               The title of article
@@ -26,8 +31,34 @@ block content
                 li
                   a(href="#")
                     i(class="fa fa-user" aria-hidden="true")
-                    | Author: Anton Krasov      
+                    | Author: Anton Krasov
+                li
+                  a(href="#")
+                    i(class="fa fa-facebook-official" aria-hidden="true")
+                    //| facebook    
+                li
+                  a(href="#")
+                    i(class="fa fa-facebook-official" aria-hidden="true")
+                    //| facebook          
+            p
+              |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+              nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+              officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+              nulla pariatur.
+            img(src="images/6.jpg" alt="lawyer" )
             p.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+              officia deserunt mollit anim id est laborum.
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
               eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -36,10 +67,40 @@ block content
               nulla pariatur. 
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
               officia deserunt mollit anim id est laborum.
-          .b_related.clearfix.
-            related posts  
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+              nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+              officia deserunt mollit anim id est laborum.
+          .b_related.clearfix
+            h3.
+              Related posts
+            .owlRp.clearfix
+              .rp_item
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="lawyer" )
+              .rp_item
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="lawyer" )
+              .rp_item
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="lawyer" )
+              .rp_item
+                img(class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt="lawyer" )          
         .b_comments.clearfix
-          p.
-            comments    
+          form(action="#" method="post")
+            .col-xs-12.col-sm-6.col-md-6
+              input(type="text" name="name" placeholder="name")
+            .col-xs-12.col-sm-6.col-md-6
+              input(type="text" name="email" placeholder="email")
+            .col-xs-12
+              textarea(placeholder="Your text here ")
+            .col-xs-6.com_btn
+              input(type="submit" value="Comment")
+        .b_comments.clearfix
+          .comLeft
+            img(src="#" alt="pict") 
+          .comRight.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.    
       .col-xs-12.col-sm-12.col-md-4
         include includes/_sidebar      

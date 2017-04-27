@@ -1,0 +1,12 @@
+extends layout
+block content
+  include _mixins
+  section
+    .container
+      .row
+        .col-xs-12
+          .breadcrumbs
+            +breadcrumb("About Me")
+        .col-xs-12.col-sm-12.col-md-8
+        .col-xs-12.col-sm-12.col-md-4
+          include includes/_sidebar

@@ -51,17 +51,19 @@ input[type="email"],
 input[type="file"],
 textarea
   border: 0
-  border-bottom: 0 solid $red_col
+  border-bottom: 1px solid blue
   width: 100%
   padding: 10px
   margin: 8px 0
   @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.2), $inset: true)
   &:focus
-    border-bottom: 1px solid $red_col
+    border-bottom: 1px solid yellow
 input[type="submit"]
   width: 100%
   border: 0
   @include btnstyle($red_col, $inver_color)
+.com_btn
+  float: right
 main,
 .header_main,
 section,
@@ -101,7 +103,8 @@ aside
     width: 100%
     background-color: #fff
 .blog_intro,
-.sb_widget
+.sb_widget,
+.b_comments
   width: 100%
   border: 0 solid #d1d1d1
   background-color: $blockbg_color
@@ -113,3 +116,6 @@ header
   @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.2))
 .breadcrumbs
   padding: 10px 0
+  a,
+  .active
+    text-shadow: 0 1px 0 #fff

@@ -3,13 +3,13 @@
 const gulp  	   = require('gulp');
 // const sass  	   = require('gulp-sass');
 // const pug   	 	 = require('gulp-pug');
-// const multipipe  = require('multipipe');
-// const notify     = require('gulp-notify');
+const multipipe  = require('multipipe');
+const notify     = require('gulp-notify');
 // const concatcss  = require('gulp-concat-css');
 // const cached     = require('gulp-cached');
 // const path       = require('path');
 // const remember   = require('gulp-remember');
-// const concat     = require('gulp-concat');
+const concat     = require('gulp-concat');
 const bs 		 		 = require('browser-sync').create();
 //const autopref   = require('gulp-autoprefixer');
 
@@ -48,6 +48,7 @@ gulp.task('js', function(){
 			'app/libs/animate/animate-css.js',
 			'app/libs/wow.min.js',
       'app/libs/OwlCarousel/js/owl.carousel.min.js',
+			//'app/libs/masonry/masonry.pkgd.min.js',
     ]),
     concat("libs.js"),
     gulp.dest('app/js/')

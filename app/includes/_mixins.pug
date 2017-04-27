@@ -1,4 +1,4 @@
--var menuItem = ["About Me", "Legal help", "Members ATO", "Other Legal help", "blog", "Products"]
+-var menuItem = ["about", "legalhelp", "ato", "Other Legal help", "blog", "Products"]
 -var menuSubItem = ["Item1", "Item2", "Item3"]
 -var menuSubItem2 = ["Item1", "Item2", "Item3"]
 mixin menu(items)
@@ -21,9 +21,9 @@ mixin menu(items)
 // mixin breadcrumb
 mixin breadcrumb(one)
   .ui.breadcrumb
-    a(class='section' href="./") Home
-    i(class="right chevron icon divider")
-    div.active.section(href="./")= one
+    a(class='section' href="./")
+      | Home /
+    div.active.section= one
 // mixin breadcrumbs
 mixin breadcrumbs(one,two,three)
   .ui.big.breadcrumb

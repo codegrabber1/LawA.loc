@@ -1,6 +1,7 @@
 .blog_intro
-  .s_date
+  .left_side
     float: left
+  .s_date
     border: 0 solid red
     color: #fff
     font-weight: bold
@@ -11,22 +12,54 @@
     border-bottom-right-radius: 6px
     span
       display: block
+  .blog_soc
+    a.soc_btn_item
+      display: block
+      border-radius: 50%
+      background-color: #ccc
+      width: 42px
+      height: 42px
+      padding: 10px 14px
+      margin: 10px auto
   .intro_text
-    margin: 0 15px 0 100px
+    margin: 0 40px
+    h2
+      line-height: 40px
+  p
+    line-height: 28px
+    margin: 20px auto
   .m_button
     float: right
     display: block
     margin: 15px
 .blog_info
-  margin: 5px 0 8px 0
+  margin: 0 0 8px 0
   li
     display: inline-block
     margin-right: 10px
     a
       display: block
-      color: #d1d1d1
       text-shadow: 0 1px 0 #fff
       &:hover
         color: $active_link
       .fa
         margin-right: 5px
+.b_related
+  width: 100%
+  overflow: hidden
+  h3
+    margin: 10px 40px
+    border-left: 3px solid red
+    padding: 0 10px
+    text-transform: uppercase
+.comLeft
+  float: left
+  margin-right: 15px
+  border: 1px solid black
+  img
+    width: 80px
+    height: 80px
+.comRight
+  line-height: 24px
+  padding-right: 15px
+  font-size: 14px

@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+
 // top menu
 
   $(".sf-menu").superfish();
@@ -87,5 +88,44 @@ $('.owlC').owlCarousel({
             items:3,
             nav:false,        }
     }
+  });
+  // related post
+  $('.owlRp').owlCarousel({
+      loop:true,
+      margin: 10,
+      responsiveClass:true,
+      lazyLoad:true,
+      autoplay: true,
+      center: true,
+      nav:false,
+      responsive:{
+          0:{
+              items:2,
+          },
+          480:{
+              items:3,
+              center: true,
+              //margin: 10,
+          },
+          768:{
+              items:3,
+              margin: 10,
+          },
+          1024:{
+              items:3,
+              margin: 15,
+          },
+          1366:{
+              items:3,
+              nav:false,        }
+      }
+    });
+  new WOW().init();
+  // masonry
+  $('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    gutter: 15,
+    percentPosition: true,
   });
 });// end ready
